@@ -19,3 +19,43 @@
   height: 100px;
   margin-top: 10px;
 }
+
+#submitComment {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+#submitComment:hover {
+  background-color: #45a049;
+}
+
+#submitComment:active {
+  background-color: #388e3c;
+}
+
+#resetComment {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+#resetComment:hover {
+  background-color: #e53935;
+}
+
+#resetComment:active {
+  background-color: #c62828;
+}

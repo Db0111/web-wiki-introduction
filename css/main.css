@@ -59,3 +59,65 @@
 #resetComment:active {
   background-color: #c62828;
 }
+
+.comment-list {
+  width: 100%;
+
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comment-item {
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.comment-item:last-child {
+  border-bottom: none;
+}
+
+.comment-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.comment-author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.comment-author span {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.comment-content {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+.comment-content em {
+  font-size: 18px;
+  color: #f1a500;
+}
+
+.comment-item:hover {
+  background-color: #fafafa;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

@@ -9,7 +9,7 @@ function displayComments() {
     li.innerHTML = `
       <div class="comment-author">
         <img src="./images/comment-author-icon.png" alt="사용자 프로필 이미지" />
-        <span>방문자</span>
+        <span><strong>방문자</strong></span>
       </div>
       <div class="comment-content">
         ${comment}
